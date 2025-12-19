@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "date": "2023-11-05",
+    "title": "On Small Decisions",
+    "text": "We often overestimate the importance of big decisions while underestimating the cumulative impact of small, daily choices. The person you become in five years depends more on what you do each day than on any single career or life-altering decision."
+  },
+  {
+    "id": 2,
+    "date": "2023-11-03",
+    "title": "The Paradox of Learning",
+    "text": "The more you learn, the more you realize how much you don't know. This isn't discouraging but liberating—it means there will always be new mysteries to explore, new connections to make."
+  },
+  {
+    "id": 3,
+    "date": "2023-10-28",
+    "title": "Digital vs. Analog Thinking",
+    "text": "Digital tools help us store and retrieve information efficiently, but analog processes (writing by hand, drawing diagrams, physical manipulatives) often lead to deeper understanding and unexpected connections."
+  },
+  {
+    "id": 4,
+    "date": "2023-10-22",
+    "title": "On Attention",
+    "text": "Attention is the rarest and purest form of generosity. In a world of constant distraction, giving someone your full attention has become a revolutionary act."
+  },
+  {
+    "id": 5,
+    "date": "2023-10-15",
+    "text": "Noticing when you're procrastinating on something is more important than stopping the procrastination. The awareness itself creates space for change."
+  },
+  {
+    "id": 6,
+    "date": "2023-10-10",
+    "title": "The Value of Constraints",
+    "text": "Creativity thrives within constraints. Unlimited options often lead to paralysis, while well-defined boundaries can inspire innovation."
+  }
+]

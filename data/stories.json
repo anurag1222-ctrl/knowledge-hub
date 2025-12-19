@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "The Library of Alexandria: What Was Lost",
+    "date": "2023-10-15",
+    "category": "History",
+    "readTime": "7 min read",
+    "excerpt": "The story of one of the most famous libraries in history, its vast collection, and the mystery surrounding its destruction.",
+    "content": "<p>The Library of Alexandria, founded in the 3rd century BCE, was one of the largest and most significant libraries of the ancient world. It was part of a larger research institution called the Mouseion, dedicated to the Muses, the nine goddesses of the arts.</p><p>The library's collection was said to contain between 40,000 and 400,000 scrolls, which at the time represented a significant portion of all human knowledge. Scholars from across the Mediterranean world traveled to Alexandria to study its texts.</p><h3>The Collections</h3><p>The library aimed to collect all the world's knowledge. Ships docking in Alexandria were searched for books, which were then copied by scribes. The originals were kept in the library, and the copies given to the owners.</p><h3>The Loss</h3><p>The library's destruction remains shrouded in mystery. Multiple events over centuries contributed to its decline: Julius Caesar's fire in 48 BCE, religious conflicts in the 4th century CE, and finally the Muslim conquest in the 7th century. Each event likely destroyed parts of the collection.</p><p>The loss of the Library of Alexandria represents one of history's greatest cultural tragedies, with countless works of literature, science, and philosophy lost forever.</p>",
+    "icon": "scroll"
+  },
+  {
+    "id": 2,
+    "title": "The Invention of Zero",
+    "date": "2023-09-28",
+    "category": "Mathematics",
+    "readTime": "5 min read",
+    "excerpt": "How the concept of zero transformed mathematics and why it took centuries to be accepted in the Western world.",
+    "content": "<p>The concept of zero as a number is one of the most important breakthroughs in mathematics, yet it took millennia to develop and gain acceptance.</p><p>Ancient civilizations like the Babylonians and Mayans had placeholder symbols in their number systems, but they didn't treat zero as a number with its own properties. The first documented use of zero as a number comes from 7th century India, where mathematician Brahmagupta wrote rules for arithmetic including zero.</p><h3>Resistance to Zero</h3><p>When zero reached Europe through Arabic mathematics, it faced significant resistance. Many philosophers and mathematicians argued that 'nothing' couldn't be a number. The Catholic Church initially opposed zero, seeing it as representing nothingness, which conflicted with the concept of God as fullness of being.</p><h3>Impact on Mathematics</h3><p>Zero's acceptance revolutionized mathematics, enabling: the decimal system, algebra, calculus, and eventually computer science. Without zero, modern mathematics and technology would be impossible.</p><p>The journey of zero from placeholder to fundamental concept shows how even abstract ideas can face resistance before transforming our world.</p>",
+    "icon": "calculator"
+  },
+  {
+    "id": 3,
+    "title": "The Dancing Plague of 1518",
+    "date": "2023-08-12",
+    "category": "History",
+    "readTime": "6 min read",
+    "excerpt": "In July 1518, a strange epidemic struck Strasbourg where hundreds of people danced uncontrollably for days, some even to their deaths.",
+    "content": "<p>One of history's most bizarre medical mysteries began in July 1518, when a woman named Frau Troffea began dancing fervently in a street in Strasbourg. She continued dancing for nearly a week, and within a month, 400 people had joined her.</p><p>The dancing was not joyful but rather seemed compulsive and uncontrollable. Dancers would continue until they collapsed from exhaustion, with some suffering heart attacks, strokes, or dying from sheer exhaustion.</p><h3>Contemporary Explanations</h3><p>Local authorities initially believed the dancers were suffering from 'hot blood' and that more dancing would cure them. They even hired musicians and cleared spaces for the afflicted to dance.</p><p>Modern theories suggest the dancing plague might have been caused by mass psychogenic illness (mass hysteria), possibly triggered by stress from famine, disease, and superstition in the region. Some researchers have suggested ergot poisoning (from contaminated rye) as another possible cause.</p><h3>The Aftermath</h3><p>The dancing eventually subsided by September. This strange event reminds us of the complex relationship between mind and body, and how social and psychological factors can manifest in physical symptoms on a mass scale.</p>",
+    "icon": "music"
+  }
+]

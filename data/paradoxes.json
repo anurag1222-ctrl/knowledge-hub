@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "The Ship of Theseus",
+    "category": "Philosophical",
+    "description": "If all parts of a ship are replaced over time, is it still the same ship? This paradox questions the nature of identity and change.",
+    "explanation": "This paradox raises questions about identity through time. If identity depends on material continuity, then replacing all parts changes the identity. But if identity depends on form or function, it remains the same. Some philosophers argue for a 'four-dimensional' view where the ship is the sum of all its temporal parts.",
+    "variations": ["If you replace the planks one by one, when does it stop being the original ship?", "If you take the old planks and rebuild the original ship, which one is the true Ship of Theseus?"]
+  },
+  {
+    "id": 2,
+    "title": "The Bootstrap Paradox",
+    "category": "Temporal",
+    "description": "A time traveler goes back in time and gives Shakespeare his plays, which Shakespeare then publishes. Who actually wrote the plays?",
+    "explanation": "This is a causality paradox where an object or information has no clear origin. It creates an infinite causal loop with no starting point. The information or object seems to come from nowhere, violating our understanding of cause and effect.",
+    "variations": ["A musician travels back and plays Beethoven's symphonies for Beethoven", "A scientist brings future technology to the past, which is then reverse-engineered"]
+  },
+  {
+    "id": 3,
+    "title": "The Unexpected Hanging",
+    "category": "Logical",
+    "description": "A judge tells a prisoner he will be hanged on a weekday next week, but the hanging will be a surprise. The prisoner reasons he cannot be hanged, but then is hanged—to his surprise.",
+    "explanation": "The paradox arises from self-reference and the definition of 'surprise'. The prisoner's logical deduction seems sound but leads to a contradiction when applied. This paradox has connections to Gödel's incompleteness theorems and has been debated by philosophers for decades.",
+    "variations": ["The surprise test paradox", "The unexpected examination paradox"]
+  },
+  {
+    "id": 4,
+    "title": "The Liar Paradox",
+    "category": "Logical",
+    "description": "\"This statement is false.\" If the statement is true, then it's false. If it's false, then it's true.",
+    "explanation": "This simple self-referential statement creates an infinite loop of truth values. It challenges classical logic's law of excluded middle (every statement must be either true or false). Some solutions involve different logical systems or recognizing that some statements are neither true nor false.",
+    "variations": ["\"I am lying.\"", "\"The next sentence is true. The previous sentence is false.\""]
+  }
+]
