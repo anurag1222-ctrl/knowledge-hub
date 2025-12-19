@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stories | Mindscape</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Serif+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">🧠 Mindscape</a>
+            <button class="nav-toggle" aria-label="Toggle menu">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="stories.html" class="active">Stories</a></li>
+                <li><a href="thoughts.html">Thoughts</a></li>
+                <li><a href="maths.html">Mathematics</a></li>
+                <li><a href="paradoxes.html">Paradoxes</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="theme-toggle-container">
+                    <button class="theme-toggle" aria-label="Toggle theme">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container">
+            <h1 class="page-title">Historical & Interesting Stories</h1>
+            <p class="page-subtitle">Fascinating tales from history, science, and human experience</p>
+            
+            <!-- Search and Filter -->
+            <div class="page-controls">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="story-search" placeholder="Search stories...">
+                </div>
+                <div class="filter-dropdown">
+                    <select id="story-filter">
+                        <option value="all">All Categories</option>
+                        <option value="history">History</option>
+                        <option value="science">Science</option>
+                        <option value="biography">Biography</option>
+                        <option value="culture">Culture</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <div class="stories-grid" id="stories-container">
+                <!-- Stories loaded from JSON -->
+            </div>
+            
+            <div class="empty-state" id="no-stories-found">
+                <i class="fas fa-book-open fa-3x"></i>
+                <h3>No stories found</h3>
+                <p>Try adjusting your search or filter</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>🧠 Mindscape</h3>
+                    <p>A personal knowledge & creativity hub</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="stories.html">Stories</a></li>
+                        <li><a href="thoughts.html">Thoughts</a></li>
+                        <li><a href="maths.html">Mathematics</a></li>
+                        <li><a href="paradoxes.html">Paradoxes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#" id="contact-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Mindscape. All content created for personal knowledge sharing.</p>
+                <p>Built with HTML, CSS & JavaScript. Content managed via JSON.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/loadStories.js"></script>
+</body>
+</html>

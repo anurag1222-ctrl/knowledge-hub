@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindscape | Knowledge & Creativity Hub</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Serif+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">🧠 Mindscape</a>
+            <button class="nav-toggle" aria-label="Toggle menu">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="stories.html">Stories</a></li>
+                <li><a href="thoughts.html">Thoughts</a></li>
+                <li><a href="maths.html">Mathematics</a></li>
+                <li><a href="paradoxes.html">Paradoxes</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="theme-toggle-container">
+                    <button class="theme-toggle" aria-label="Toggle theme">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <h1 class="hero-title">Mindscape</h1>
+            <p class="hero-subtitle">A personal hub for knowledge, creativity & thoughtful exploration</p>
+            <p class="hero-description">Discover historical stories, daily reflections, mathematical curiosities, and philosophical paradoxes</p>
+            <div class="hero-cta">
+                <a href="#recent" class="btn btn-primary">Explore Content</a>
+                <a href="about.html" class="btn btn-secondary">About This Project</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Category Cards -->
+            <section class="categories-section">
+                <h2 class="section-title">Explore Categories</h2>
+                <div class="categories-grid">
+                    <a href="stories.html" class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                        <h3>Historical Stories</h3>
+                        <p>Fascinating tales from history and interesting narratives</p>
+                    </a>
+                    
+                    <a href="thoughts.html" class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>Daily Thoughts</h3>
+                        <p>Personal reflections and observations</p>
+                    </a>
+                    
+                    <a href="maths.html" class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-square-root-alt"></i>
+                        </div>
+                        <h3>Mathematics</h3>
+                        <p>Interesting problems, solutions & explanations</p>
+                    </a>
+                    
+                    <a href="paradoxes.html" class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-question-circle"></i>
+                        </div>
+                        <h3>Paradoxes</h3>
+                        <p>Logical, philosophical & mathematical paradoxes</p>
+                    </a>
+                </div>
+            </section>
+
+            <!-- Recent Posts -->
+            <section id="recent" class="recent-posts">
+                <h2 class="section-title">Recent Additions</h2>
+                
+                <!-- Stories -->
+                <div class="category-section">
+                    <div class="category-header">
+                        <h3>Latest Stories</h3>
+                        <a href="stories.html" class="view-all">View All</a>
+                    </div>
+                    <div class="posts-grid" id="recent-stories">
+                        <!-- Loaded by JavaScript -->
+                    </div>
+                </div>
+                
+                <!-- Thoughts -->
+                <div class="category-section">
+                    <div class="category-header">
+                        <h3>Recent Thoughts</h3>
+                        <a href="thoughts.html" class="view-all">View All</a>
+                    </div>
+                    <div class="posts-grid" id="recent-thoughts">
+                        <!-- Loaded by JavaScript -->
+                    </div>
+                </div>
+                
+                <!-- Maths -->
+                <div class="category-section">
+                    <div class="category-header">
+                        <h3>Math Problems</h3>
+                        <a href="maths.html" class="view-all">View All</a>
+                    </div>
+                    <div class="posts-grid" id="recent-maths">
+                        <!-- Loaded by JavaScript -->
+                    </div>
+                </div>
+                
+                <!-- Paradoxes -->
+                <div class="category-section">
+                    <div class="category-header">
+                        <h3>Paradoxes</h3>
+                        <a href="paradoxes.html" class="view-all">View All</a>
+                    </div>
+                    <div class="posts-grid" id="recent-paradoxes">
+                        <!-- Loaded by JavaScript -->
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <h3>🧠 Mindscape</h3>
+            <p>A personal knowledge & creativity hub</p>
+          </div>
+          <div class="footer-links">
+            <h4>Categories</h4>
+            <ul>
+              <li><a href="stories.html">Stories</a></li>
+              <li><a href="thoughts.html">Thoughts</a></li>
+              <li><a href="maths.html">Mathematics</a></li>
+              <li><a href="paradoxes.html">Paradoxes</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h4>Connect</h4>
+            <ul>
+              <li><a href="about.html">About</a></li>
+              <li><a href="#" id="contact-link">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; <span id="current-year"></span> Mindscape. All content created for personal knowledge sharing.</p>
+          <p>Built with HTML, CSS & JavaScript. Content managed via JSON.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/loadHomepage.js"></script>
+</body>
+</html>

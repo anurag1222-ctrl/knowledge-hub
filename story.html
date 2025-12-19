@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story | Mindscape</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Serif+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">🧠 Mindscape</a>
+            <button class="nav-toggle" aria-label="Toggle menu">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="stories.html">Stories</a></li>
+                <li><a href="thoughts.html">Thoughts</a></li>
+                <li><a href="maths.html">Mathematics</a></li>
+                <li><a href="paradoxes.html">Paradoxes</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="theme-toggle-container">
+                    <button class="theme-toggle" aria-label="Toggle theme">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Story Detail Content -->
+    <main class="main-content">
+        <div class="container">
+            <a href="stories.html" class="back-link">
+                <i class="fas fa-arrow-left"></i> Back to Stories
+            </a>
+            
+            <article class="story-detail" id="story-content">
+                <!-- Story will be loaded here by JavaScript -->
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>Loading story...</p>
+                </div>
+            </article>
+            
+            <div class="story-navigation">
+                <a href="#" id="prev-story" class="btn btn-secondary">
+                    <i class="fas fa-arrow-left"></i> Previous Story
+                </a>
+                <a href="stories.html" class="btn btn-outline">
+                    All Stories
+                </a>
+                <a href="#" id="next-story" class="btn btn-secondary">
+                    Next Story <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>🧠 Mindscape</h3>
+                    <p>A personal knowledge & creativity hub</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="stories.html">Stories</a></li>
+                        <li><a href="thoughts.html">Thoughts</a></li>
+                        <li><a href="maths.html">Mathematics</a></li>
+                        <li><a href="paradoxes.html">Paradoxes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#" id="contact-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Mindscape. All content created for personal knowledge sharing.</p>
+                <p>Built with HTML, CSS & JavaScript. Content managed via JSON.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/loadStoryDetail.js"></script>
+</body>
+</html>
