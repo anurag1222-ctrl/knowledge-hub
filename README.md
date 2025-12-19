@@ -2,7 +2,7 @@
 
 A fully responsive, mobile-first static website for managing and displaying personal knowledge content using JSON files.
 
-🌐 **Live Demo:** [https://yourusername.github.io/mindscape](https://yourusername.github.io/mindscape)
+🌐 **Live Demo:** [https://anurag1222-ctrl.github.io/mindscape](https://anurag1222-ctrl.github.io/knowledge-hub/)
 
 ## Features
 
@@ -33,5 +33,6 @@ A fully responsive, mobile-first static website for managing and displaying pers
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/mindscape.git
+git clone https://github.com/anurag1222-ctrl/mindscape.git
+
 cd mindscape
